@@ -12,7 +12,8 @@ def load(folder):
     return read, imgs
 def run():
     check = 3
-    l
-    for i in 
+    config, imgs = load("./res/pipes-code-train")
+    for i in imgs:
+        
 if __name__ == "__main__":
-    print(load("./res/pipes-code-train")[1])
+    run()
