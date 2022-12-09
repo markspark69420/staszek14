@@ -1,0 +1,21 @@
+[tiles]
+# name, id, path, allowed, allowedN, allowedE, allowedS, allowedW
+path , 1 , .\res\water-path\path.png , [1 2 3 4 5 6 7 8 9 10] 
+water , 2 , .\res\water-path\water.png , [1 2] , [3 4 10] , [4 5 6] , [6 7 8] , [8 9 10]
+waterN , 3 , .\res\water-path\waterN.png , [] , [1] , [3 10] , [2] , [3 4]
+waterNE , 4 , .\res\water-path\waterNE.png , [] , [1 5 6] , [1 3 10] , [2] , [2] 
+waterE , 5 , .\res\water-path\waterE.png , [] , [1 5 6] , [1] , [1 4 5] , [2]
+waterSE , 6 , .\res\water-path\waterSE.png , [] , [2] , [1 7 8] , [1 4 5] , [2]
+waterS , 7 , .\res\water-path\waterS.png , [] , [2] , [1 7 8] , [1] , [1 6 7]
+waterSW , 8 , .\res\water-path\waterSW.png , [] , [2] , [2] , [1 9 10] , [1 6 7]
+waterW , 9 , .\res\water-path\waterW.png , [] , [8 9] , [2] , [9 10] , [1]
+waterNW , 10 , .\res\water-path\waterNW.png , [] , [1 8 9] , [2] , [2] , [1 3 4]
+
+[commands]
+#x, y, id
+3,3,7
+4,4,9
+
+[size]
+#height thicc
+6 ,6 
