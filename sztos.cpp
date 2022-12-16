@@ -19,15 +19,22 @@ int main(){
             cin >> liczba;
             sztosy[stos_indx] = sztosy[stos_indx-1];
             sztosy[stos_indx].push(liczba);
-            if(~sztosy[stos_indx].empty()){
-                cout<<sztosy[stos_indx].top();
-            }
-            else{
-                cout<<-1;
-            }
+            
         }
         else if(curr=='-'){
-            sztosy[]
-        }    
+            sztosy[stos_indx] = sztosy[stos_indx-1];
+            sztosy[stos_indx].pop();
+        }
+        else if(curr='*'){
+            cin >> liczba;
+            sztosy[stos_indx] = sztosy[stos_indx-liczba];
+        }
+
+        if(~sztosy[stos_indx].empty()){
+            cout<<sztosy[stos_indx].top();
+        }
+        else{
+            cout<<-1;
+        }
     }
 }
